@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user-info {
+    position: relative; 
+  }
+  
+  .user-name {
+    display: none; 
+    position: absolute; 
+    top: 9%; 
+    right:auto; 
+    padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 40px;
+    color: white; 
+  }
+  
+  .user-image:hover + .user-name {
+    display: block;
+  }
+  
